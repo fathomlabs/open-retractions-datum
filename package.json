@@ -1,0 +1,22 @@
+{
+  "name": "open-retractions-datum",
+  "version": "0.0.0",
+  "description": "tools for working with OpenRetractions data entries",
+  "main": "index.js",
+  "dependencies": {
+    "crossref-to-retraction": "^0.1.0",
+    "deep-equal": "^1.0.1",
+    "lodash.uniqby": "^4.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fathomlabs/open-retractions-datum.git"
+  },
+  "author": "Rik Smith-Unna (@blahah)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/fathomlabs/open-retractions-datum/issues"
+  },
+  "homepage": "https://github.com/fathomlabs/open-retractions-datum"
+}
