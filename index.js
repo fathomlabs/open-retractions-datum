@@ -19,7 +19,7 @@ const merge = (a, b) => {
     retracted: a.retracted || b.retracted,
     timestamp: Math.max(a.timestamp, b.timestamp),
     updates: uniqify(a.updates, b.updates),
-    doi: a.doi,
+    identifier: Object.assign({}, a.identifier, b.identifier),
     publisher: a.publisher || b.publisher,
     title: a.title || b.title
   }

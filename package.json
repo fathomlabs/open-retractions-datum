@@ -4,7 +4,7 @@
   "description": "tools for working with OpenRetractions data entries",
   "main": "index.js",
   "dependencies": {
-    "crossref-to-retraction": "^0.1.0",
+    "crossref-to-retraction": "^0.1.1",
     "deep-equal": "^1.0.1",
     "lodash.uniqby": "^4.7.0"
   },
