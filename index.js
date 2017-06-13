@@ -13,7 +13,15 @@ const check = data => {
 }
 
 const merge = (a, b) => {
-  if (a.doi !== b.doi) throw new Error('Cannot merge: DOIs of retraction records do not match (' + a.doi + ', ' + b.doi + ')')
+  if (a.identifier.doi !== b.identifier.doi) {
+    throw new Error(
+      'Cannot merge: DOIs of retraction records do not match (' +
+      a.identifier.doi +
+      ', ' +
+      b.identifier.doi +
+      ')'
+    )
+  }
 
   return {
     retracted: a.retracted || b.retracted,
